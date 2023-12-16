@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+.clock{
+    width:440px;
+    height: 200px;
+    background-color:#191616 ;
+    display: flex;
+   transform: translate(100%,100%);
+   box-shadow: -2px -2px 5px #272525,
+   2px 2px 5px #000000;
+       text-align: center;
+
+    
+}
+p{
+    font-size: 80px;
+    display: flex;
+    margin-top: 50px;
+    color:rgb(0 255 255) ;
+    z-index: 2;
+}
+section{
+    height: 100vh;
+    background-color: #191616;
+}
